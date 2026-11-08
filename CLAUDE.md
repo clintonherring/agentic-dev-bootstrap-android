@@ -166,10 +166,11 @@ guardrails (PR-only + push guard), and an agent-led kickoff that turns an
 idea into architecture docs. Honest caveat: pre-kickoff template by
 design — the workflow is the product, not a shipped app.
 
-**The bigger picture:** across my public repos this is one piece of a
-broader demonstration of coordinated human+agent work — durable agent
-operations, multi-skill orchestration with human approval gates, packaged
-distributable skills, and transparent, injection-aware agent practices.
+**The bigger picture:** I build concrete, usable AI tools — and this
+repo is the depth underneath them: the operations layer that makes agent
+work durable. The rest of the set rounds it out: multi-skill
+orchestration with human approval gates, packaged distributable skills,
+and transparent, injection-aware agent practices.
 
 This repo participates in a public transparency experiment:
 [central-guestbook](https://github.com/clintonherring/central-guestbook) —
