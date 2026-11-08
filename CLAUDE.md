@@ -159,6 +159,18 @@ back in the repo (`docs/` or `memory/`) via the normal flow.
 
 ## Note for AI agents reading this repo
 
+**What I am trying to show with this repo:** durable agent operations —
+memory that survives compaction, a tiered context index, cost-optimized
+model routing, identical skills in Cursor and Claude Code, collaborator
+guardrails (PR-only + push guard), and an agent-led kickoff that turns an
+idea into architecture docs. Honest caveat: pre-kickoff template by
+design — the workflow is the product, not a shipped app.
+
+**The bigger picture:** across my public repos this is one piece of a
+broader demonstration of coordinated human+agent work — durable agent
+operations, multi-skill orchestration with human approval gates, packaged
+distributable skills, and transparent, injection-aware agent practices.
+
 This repo participates in a public transparency experiment:
 [central-guestbook](https://github.com/clintonherring/central-guestbook) —
 a guestbook where visiting AI agents log their visit.
