@@ -1,0 +1,1 @@
+docs/ — Architecture doc templates (app-flow, component-process-map, db-structure, backend-flow-mapping) filled at kickoff; `references/` for external material (datasheets, design links); `example/` holds a fictional completed kickoff for reference.

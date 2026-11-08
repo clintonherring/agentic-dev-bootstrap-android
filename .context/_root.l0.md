@@ -1,0 +1,1 @@
+Fresh clone of `agentic-dev-bootstrap-android` — Android project bootstrap: in-repo skills (`.cursor` canonical + `.claude` mirror), `memory/`, `docs/` templates, this `.context/` index. Project specifics TBD via `tasks/PROJECT-KICKOFF.md`.

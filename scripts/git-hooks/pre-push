@@ -1,0 +1,23 @@
+#!/bin/sh
+# Pre-push guard (from agentic-dev-bootstrap-android).
+#
+# Collaborators open PRs instead of pushing to main. This hook is the
+# technical backstop for the collaboration model in CLAUDE.md / AGENTS.md
+# while the repo has no branch protection (e.g. private repo, free tier).
+#
+# Install once after cloning:
+#   git config core.hooksPath scripts/git-hooks
+#
+# The owner bypasses with the ALLOW_MAIN_PUSH=1 environment variable.
+# Collaborators: do not set it.
+
+while read local_ref local_sha remote_ref remote_sha; do
+  if [ "$remote_ref" = "refs/heads/main" ] && [ "${ALLOW_MAIN_PUSH:-0}" != "1" ]; then
+    echo "pre-push guard: direct pushes to 'main' are disabled for collaborators." >&2
+    echo "                Work on feat/<slug> and open a PR; the owner reviews and merges." >&2
+    echo "                (Repo owner: set ALLOW_MAIN_PUSH=1 to bypass.)" >&2
+    exit 1
+  fi
+done
+
+exit 0

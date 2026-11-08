@@ -1,0 +1,1 @@
+scripts/ — repo utilities: `sync-skills.ps1/.sh` mirror `.cursor/skills` to `.claude/skills` (check mode available; exclusion keeps infra skills Cursor-only); `git-hooks/pre-push` blocks collaborator pushes to `main` (owner bypasses via `ALLOW_MAIN_PUSH=1`; enable once with `git config core.hooksPath scripts/git-hooks`).

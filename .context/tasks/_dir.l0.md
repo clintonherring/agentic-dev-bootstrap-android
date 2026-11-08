@@ -1,0 +1,1 @@
+tasks/ — Working notes (`TOPIC-YYYY-MM-DD.md`) and living docs: `PROJECT-KICKOFF.md` (the interview that generates the project) and `ONBOARDING-COLLABORATOR.md` (living running-todo for bringing a collaborator in PR-only mode).
